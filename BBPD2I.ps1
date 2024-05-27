@@ -59,5 +59,3 @@ else
 	}
 	Expand-Archive -Path $MODNames[2] -DestinationPath "$PI\..\"
 }
-
-Remove-Item -Path ".\tmp" -Recurse
