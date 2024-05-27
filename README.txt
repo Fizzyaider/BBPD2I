@@ -27,3 +27,4 @@ ROADMAP
 • Able to install and work with mods that aren't just installed by default with BBPD2I
 • Automatic installation of SuperBLT if SuperBLT installation is not detected
 • Direct interaction with mod webpages for automatic downloading and installing of mods desired
+• Automatic detection of which drive Payday 2 is installed on or at the very least detecting what drives are on the system and asking the user which drive payday 2 is installed on
