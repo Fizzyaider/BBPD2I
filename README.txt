@@ -10,4 +10,20 @@ Ensure that you have SuperBLT already installed on your payday 2 installation, i
 
 https://superblt.znix.xyz/
 
-and follow the instructions from there on how to install SuperBLT
+and follow the instructions from there on how to install SuperBLT.
+
+=======================================================
+██████╗ ██████╗ ██████╗ ██████╗ ██████╗ ██╗
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗╚════██╗██║
+██████╔╝██████╔╝██████╔╝██║  ██║ █████╔╝██║
+██╔══██╗██╔══██╗██╔═══╝ ██║  ██║██╔═══╝ ██║
+██████╔╝██████╔╝██║     ██████╔╝███████╗██║
+╚═════╝ ╚═════╝ ╚═╝     ╚═════╝ ╚══════╝╚═╝
+======================================================
+
+ROADMAP
+-------
+• Implement menu for managing mods on a GUI - C#
+• Able to install and work with mods that aren't just installed by default with BBPD2I
+• Automatic installation of SuperBLT if SuperBLT installation is not detected
+• Direct interaction with mod webpages for automatic downloading and installing of mods desired
