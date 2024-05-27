@@ -24,7 +24,7 @@ The script will then request for you to insert the drive name where payday 2 is 
 • SuperBLT [NEW!]
 ```
 
-Ensure that you have SuperBLT already installed on your payday 2 installation, if you do not have SuperBLT installed simply go to:
+Ensure that you have SuperBLT already installed on your payday 2 installation, if you do not have SuperBLT installed either use the program to automatically install SuperBLT or simply go to:
 
 https://superblt.znix.xyz/
 
