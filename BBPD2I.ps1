@@ -1,5 +1,5 @@
-# BBPD2I (Basic Bitch Payday 2 Installer) V1.0 By Fizzyaider
-# I skipped dinner to make this script lol
+# BBPD2I (Basic Bitch Payday 2 Installer) v1.1 By Fizzyaider
+# I skipped dinner to make the original script lol
 
 $RARDirectory = $PSScriptRoot
 $PDDrive = Read-Host "Please enter the letter of the drive that Payday 2 is installed on [PLEASE ENSURE THAT STEAM IS INSTALLED AT THE ROOT OF THE DRIVE]"
