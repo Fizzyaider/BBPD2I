@@ -4,12 +4,18 @@
 $RARDirectory = $PSScriptRoot
 $PDDrive = Read-Host "Please enter the letter of the drive that Payday 2 is installed on [PLEASE ENSURE THAT STEAM IS INSTALLED AT THE ROOT OF THE DRIVE]"
 $PI = "$($PDDrive):\SteamLibrary\steamapps\common\PAYDAY 2\mods"
+$PDMD = "$($PDDrive):\SteamLibrary\steamapps\common\PAYDAY 2"
 [int]$score = 0
 echo $RARDirectory > "./log.txt"
 $MODNames = ".\tmp\BeardLib.zip",".\tmp\vanhudplus.zip",".\tmp\WD2MainMenu.zip"
 $OKFiles = "base","downloads","logs","saves"
 
-mkdir ".\tmp"
+
+if ($(Test-Path "$($PDDrive):\SteamLibrary\steamapps\common\PAYDAY 2\WSOCK32.dll") -eq $false)
+{
+    echo "SuperBLT library file not found, downloading to payday 2 installation . . ."
+    Invoke-WebRequest "https://sblt-update.znix.xyz/pd2update/download/get.php?src=homepage&id=payday2bltwsockdll" -OutFile "$($PDMD)\WSOCK32.dll"
+}
 
 for ($CIndex = 0; $CIndex -lt $OKFiles.count; $CIndex++)
 {
