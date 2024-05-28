@@ -13,6 +13,9 @@
 (_____)-------------------------------------------------------------------------------------------------(_____)
 ```
 
+**AGH! I NEED A MEDIC BAG!**
+_-Dallas Payday 2_
+
 To use BBPD2I (Basic Bitch Payday 2 Installer) right click on the .ps1 file and then select "Run with Powershell".
 
 **IGNORE IF USING BETA BUILD**
